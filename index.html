@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKN 287 Kelompok Desa Sukasari</title>
+
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <!-- Link ke file CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link untuk ikon dari Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+
+    <!-- BAGIAN NAVIGASI -->
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">KKN 287 SUKASARI</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="anggota.html">Anggota</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="https://kkn287sukasarii.blogspot.com/" class="btn-logbook">Logbook</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- BAGIAN HERO DENGAN SLIDESHOW -->
+        <section class="hero">
+            <div class="slider">
+                <div class="slides">
+                    <!-- Masukkan 3 gambar atau lebih. Pastikan ada duplikat slide pertama di akhir untuk loop yang mulus -->
+                    <div class="slide"><img src="images/kkn1.png" alt="Foto Kegiatan KKN 1"></div>
+                    <div class="slide"><img src="images/kkn2.jpg" alt="Foto Kegiatan KKN 2"></div>
+                    <div class="slide"><img src="images/kkn3.jpg" alt="Foto Kegiatan KKN 3"></div>
+                    <!-- Ini adalah duplikat dari slide pertama -->
+                    <div class="slide"><img src="images/kkn1.png" alt="Foto Kegiatan KKN 1"></div>
+                </div>
+            </div>
+            <div class="hero-text">
+                <h1>Selamat Datang di KKN 287 Sukasari</h1>
+                <p>Optimalisasi Potensi Lokal Menuju Desa Sukasari yang Inovatif dan Berdaya Saing</p>
+            </div>
+        </section>
+
+        <!-- BAGIAN TENTANG KAMI -->
+        <section id="tentang-kami" class="container content-section">
+            <h2>Tentang Kami</h2>
+            <div class="tentang-wrapper">
+                <div class="tentang-text">
+                    <p>
+                        Kelompok Kuliah Kerja Nyata (KKN) 287 Sukasari dari 
+                        <a href="https://uinsgd.ac.id/">Universitas Islam Negeri Sunan Gunung Djati Bandung</a> 
+                        yang berdedikasi untuk memberikan kontribusi positif di Desa Sukasari. Terdiri dari mahasiswa/i lintas jurusan, kami bersatu untuk melaksanakan berbagai program kerja yang inovatif dan bermanfaat bagi masyarakat setempat.
+                    </p>
+                    <p>
+                        Dengan mengusung tema <strong>“Optimalisasi Potensi Lokal Menuju Desa Sukasari yang Inovatif dan Berdaya Saing”</strong>, kami berupaya menggali, mengembangkan, dan mempromosikan kekayaan desa yang beragam mulai dari sektor pertanian tembakau dan hortikultura, hingga potensi wisata alam dan budaya yang khas. 
+                    </p>
+                    <p>
+                        Melalui pendekatan kolaboratif bersama masyarakat dan pemerintah desa, kami menghadirkan program-program yang mendukung produktivitas pertanian, pengembangan UMKM, pelestarian budaya lokal, serta promosi wisata berbasis kearifan lokal.
+                    </p>
+                </div>
+                <div class="tentang-img">
+                    <img src="images/galeri/warga4.jpg" alt="Foto Tentang Kami">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- BAGIAN KEGIATAN -->
+        <section id="program-kerja" class="full-width-bg">
+            <div class="container content-section">    
+            <h2>Program Kerja</h2>
+            <div class="kegiatan-grid">
+                <div class="kegiatan-item">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <h3>Rumah Bahasa</h3>
+                    <p>Mengadakan Pembelajaran Bahasa Inggris  dan Arab di Desa Sukasari.</p>
+                </div>
+                <div class="kegiatan-item">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h3>Ekonomi</h3>
+                    <p>Pengolahan Limbah Tembakau dan Pembuatan Short Film.</p>
+                </div>
+                <div class="kegiatan-item">
+                <i class="fa-solid fa-road-bridge"></i>
+                    <h3>Infrastruktur</h3>
+                    <p>Mengembangkan Infrastruktur Desa dan Peningkatan Infrastruktur Desa.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN PETA LOKASI -->
+        <section id="peta" class="container content-section">
+            <h2>Lokasi Pengabdian</h2>
+            <div class="map-container">
+                <!-- Ganti 'src' dengan link embed dari Google Maps lokasi Anda -->
+                <iframe
+                    width="100%"
+                    height="450"
+                    style="border:0"
+                    loading="lazy"
+                    allowfullscreen =""
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15819.65736727602!2d107.78944!3d-6.87722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68d0c8f0000000:0x0!2sDesa%20Sukasari%2C%20Sukasari%2C%20Sumedang!5e0!3m2!1sid!2sid!4v0000000000000!5m2!1sid!2sid">
+                </iframe>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- BAGIAN FOOTER -->
+    <footer>
+        <div class="container">
+            <p>Ikuti Perjalanan Kami</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/kkn.287.sukasari?igsh=MWR2eGZzazlxb3hyYQ==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@kkn287_sukasari?_t=ZS-8yePWF5ZbyT&_r=1" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <p class="copyright">&copy; 2025 KKN Kelompok 287 Sukasari.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
